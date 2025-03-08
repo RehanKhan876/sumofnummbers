@@ -1,10 +1,8 @@
-# This program adds two numbers
+def sum_of_two_numbers(a, b):
+    return a + b
 
-num1 = 2
-num2 = 4
-
-# Add two numbers
-sum = num1 + num2
-
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+# Example usage
+num1 = 5
+num2 = 10
+result = sum_of_two_numbers(num1, num2)
+print(f"The sum of {num1} and {num2} is: {result}")
